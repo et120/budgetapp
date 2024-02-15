@@ -22,6 +22,7 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 - [x] Tested
 - [x] Mobile Build for this application
 &nbsp;
+---
 
 
 ## Time-Crunch Challenges
@@ -34,7 +35,6 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 | Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
 
 &nbsp;
-
 
 ## Mobile Preview
 
