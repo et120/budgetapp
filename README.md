@@ -32,6 +32,7 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 | Day 2 | [Random Group Generator](https://github.com/et120/randomnamegeneratorgroups) | Enter names & generate random groups |
 | Day 3 | [Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
 | Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
+
 &nbsp;
 
 
