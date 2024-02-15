@@ -24,7 +24,6 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 &nbsp;
 ---
 
-
 ## Time-Crunch Challenges
 
 | Sprint | Repo Name | Description |
@@ -34,7 +33,7 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 | Day 3 | [Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
 | Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
 
-&nbsp;
+---
 
 ## Mobile Preview
 
