@@ -88,7 +88,7 @@ function populate() {
         }
     });
     
-    let budgetRemain = budgetAmount;
+    let budgetRemain = parseFloat(budgetAmount);
 
     // Now, create expenses
     expensesArr.forEach(expense => {
