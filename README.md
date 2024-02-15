@@ -21,15 +21,8 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 - [x] Must use import and export in this challenge
 - [x] Tested
 - [x] Mobile Build for this application
+&nbsp;
 
-## Mobile Preview
-
-<div align="center">
-<img src="./assets/mobilepreview.png" alt="Mobile preview" height="500">
-<img src="./assets/updatebudgetpreview.png" alt="Mobile preview" height="500">
-<img src="./assets/addexpensepreview.png" alt="Mobile preview" height="500">
-<p>Figure 1, 2, 3: Mobile preview of budget app in action</p>
-</div>
 
 ## Time-Crunch Challenges
 
@@ -39,3 +32,13 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 | Day 2 | [Random Group Generator](https://github.com/et120/randomnamegeneratorgroups) | Enter names & generate random groups |
 | Day 3 | [Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
 | Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
+
+
+## Mobile Preview
+
+<div align="center">
+<img src="./assets/mobilepreview.png" alt="Mobile preview" height="500">
+<img src="./assets/updatebudgetpreview.png" alt="Mobile preview" height="500">
+<img src="./assets/addexpensepreview.png" alt="Mobile preview" height="500">
+<p>Figure 1, 2, 3: Mobile preview of budget app in action</p>
+</div>
