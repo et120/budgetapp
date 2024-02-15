@@ -11,7 +11,132 @@
 </head>
 
 <body>
-    <h1>Hello, world!</h1>
+    <!-- Main -->
+    <div class="container-fluid text-center py-4" style="background-color: rgb(51, 45, 45); color: white;">
+        <div class="row pt-2 pb-4">
+            <div class="col">
+                <h1 class="fw-bold">Budget</h1>
+            </div>
+        </div>
+
+        <div class="row py-4 border rounded" style="background-color: rgb(220, 220, 220); color: black;">
+            <div class="col">
+                <h2>Total Left: <span style="font-size: larger;">$<span id="budgetLeft">0.00</span></span></h2>
+            </div>
+        </div>
+
+        <div class="row pt-4 pb-1">
+            <div class="col-8 mx-auto">
+                <button id="updateBudgetBtn" class="btn btn-success w-100" data-bs-toggle="modal"
+                    data-bs-target="#updateBudgetModal">Update Budget</button>
+            </div>
+        </div>
+
+        <div class="row py-1">
+            <div class="col-8 mx-auto">
+                <button id="manageExpensesBtn" class="btn btn-primary w-100" data-bs-toggle="modal"
+                    data-bs-target="#manageExpensesModal">Remove Expenses</button>
+            </div>
+        </div>
+
+        <div class="row pt-1 pb-2">
+            <div class="col-8 mx-auto">
+                <button id="addExpenseBtn" class="btn btn-danger w-100" data-bs-toggle="modal"
+                    data-bs-target="#addExpenseModal">Add Expense</button>
+            </div>
+        </div>
+
+        <hr>
+        <div class="row pb-3">
+            <div class="col">
+                <h3>Allotted:</h3>
+            </div>
+            <div class="col">
+                <h3>$<span id="budgetInitial">0.00</span></h3>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col overflow-auto" style="max-height: 220px;">
+                <div id="expensesDiv"></div>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- Update Budget Modal -->
+    <div class="modal fade" id="updateBudgetModal" tabindex="-1" aria-labelledby="example1ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Update Budget</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <input class="w-100" type="number" min="0.00" max="10000.00" step="0.01" id="inputUpdateBudget" placeholder="Enter amount">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="updateBudgetModalBtn" type="button" class="btn btn-success">Update</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Manage Expenses Modal -->
+    <div class="modal fade" id="manageExpensesModal" tabindex="-1" aria-labelledby="example2ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-scrollable">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Remove Expenses</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div id="expensesModalDiv"></div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <!-- <button id="manageExpensesModalBtn" type="button" class="btn btn-primary">Save changes</button> -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Add Expense Modal -->
+    <div class="modal fade" id="addExpenseModal" tabindex="-1" aria-labelledby="example3ModalLabel"
+        aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h1 class="modal-title fs-5" id="exampleModalLabel">Add Expense</h1>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row">
+                        <div class="col">
+                            <label for="expenseName">*Expense Name:</label>
+                            <input class="w-100" type="text" maxlength="12" id="expenseName" placeholder="Required field">
+                        </div>
+                        <div class="col">
+                            <label for="expenseAmount">*Amount:</label>
+                            <input class="w-100" type="number" min="0.00" max="10000.00" step="0.01" id="expenseAmount" placeholder="Required field">
+                        </div>
+                    </div>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                    <button id="addExpenseModalBtn" type="button" class="btn btn-danger">Add</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
     <script type="module" src="./scripts/app.js"></script>
