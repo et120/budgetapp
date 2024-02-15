@@ -33,9 +33,9 @@ This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app
 
 ## Time-Crunch Challenges
 
-| Sprint | Name | Time |
+| Sprint | Repo Name | Description |
 | --- | --- | --- |
-| Day 1 | ![Task Tracker](https://github.com/et120/tasktracker) | Enter tasks & track the progress | 
-| Day 2 | ![Random Group Generator](https://github.com/et120/randomnamegeneratorgroups) | Enter names & generate random groups |
-| Day 3 | ![Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
-| Day 4 | ![Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
+| Day 1 | [Task Tracker](https://github.com/et120/tasktracker) | Enter tasks & track the progress | 
+| Day 2 | [Random Group Generator](https://github.com/et120/randomnamegeneratorgroups) | Enter names & generate random groups |
+| Day 3 | [Sorting Data](https://github.com/et120/sortingdata) | Sort in ascending & descending order in each field |
+| Day 4 | [Budget App](https://github.com/et120/budgetapp) | Set a budget & add expenses |
