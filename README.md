@@ -6,7 +6,7 @@
 
 This was a `Time-Crunch Sprint` challenge where I built out a simple `budget app` that allows you to set a budget and then add expenses. This was a `mobile build` that utilized `vanilla JavaScript`, `HTML`, and the `Bootstrap Framework`. 
 
-- This sprint involved more practice with creating elements and working with local storage. This was the last challenge in this series, and I am proud of the work accomplished within the given time-constraints. :smiley:
+- This sprint involved more practice with creating elements and working with local storage. This was the last challenge in this series, and I am proud of the work accomplished within the given time constraints. :relieved:
 
 - Click :point_right: [here](#time-crunch-challenges) to scroll down to view other challenges in this series.
 
